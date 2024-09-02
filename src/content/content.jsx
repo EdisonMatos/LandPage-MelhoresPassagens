@@ -1,16 +1,16 @@
 import links from "./links";
 
-import logo from "../assets/imgs/logo/logo.webp";
-import solidLogo from "../assets/imgs/logo/solidLogo.webp";
-import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgFeatures.webp";
-import imgDivisor from "../assets/imgs/features/imgDivisor.webp";
+import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.webp";
+import aboutImg1 from "../assets/imgs/about/imgAbout.png";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 
-import imgSteps from "../assets/imgs/steps/imgSteps.webp";
+import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
@@ -30,39 +30,34 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.webp";
-import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.webp";
-import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.webp";
-import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.webp";
+import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.jpg";
+import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
+import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
+import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
 
 const content = {
   texts: {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca A Definir",
       },
       solidLogo: {
         img: solidLogo,
-        alt: "Logomarca Arraial Melhor Só o Céu",
+        alt: "Logomarca A Definir",
       },
-      menuItems: ["Início", "Serviços", "Quem somos", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "A Definir", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "PASSEIO DE BARCO EM ARRAIAL DO CABO - RJ",
-      title: (
-        <h1 className="mb-[16px]">
-          Descubra Arraial de uma maneira única e inesquecível
-        </h1>
-      ),
-      subtitle:
-        "Uma experiência extraordinária para aproveitar o melhor do Caribe Brasileiro",
-      ctaButtonText: "Agende seu passeio",
+      miniTag: "A Definir",
+      title: <h1 className="mb-[16px]">A Definir</h1>,
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "Quer saber mais? Clique aqui",
+      secondaryCta: "A Definir",
       images: {
         background: bgHeroImg,
         static: {
@@ -118,24 +113,16 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem empty",
+        alt: "imagem A Definir",
       },
-      miniTag: "NOSSA TRAJETÓRIA",
-      title: "Quem somos?",
-      subtitle: "",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       paragraph: (
         <div>
-          Somos uma equipe apaixonada por Arraial do Cabo, o Caribe Brasileiro.
-          Oferecemos experiências únicas para explorar as maravilhas naturais
-          deste paraíso. Nossos passeios de barco levam você a praias icônicas
-          como a Praia da Ilha do Farol, a Praia do Forno e as Prainhas do
-          Pontal do Atalaia.
+          A Definir
           <br />
-          <br />
-          Nosso objetivo é proporcionar momentos inesquecíveis, navegando por
-          águas cristalinas e admirando a vida marinha. Com compromisso e
-          excelência, garantimos que cada passeio seja uma jornada mágica. Venha
-          viver a magia de Arraial do Cabo conosco!
+          <br />A Definir
         </div>
       ),
       aboutSocial: {
@@ -143,17 +130,14 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "REDES SOCIAIS",
-        title: "Siga a gente nas redes sociais",
+        miniTag: "A Definir",
+        title: "A Definir",
         subtitle: "",
         paragraph: (
           <p>
-            🏝️ Quer saber mais sobre viagens incríveis? Siga nossa agência de
-            turismo nas redes sociais!
+            A Definir
             <br />
-            <br />
-            Não perca a chance de ficar por dentro das novidades e dicas para
-            suas próximas aventuras.
+            <br />A Definir
           </p>
         ),
       },
@@ -424,89 +408,79 @@ const content = {
       },
     },
     features: {
-      miniTag: "PASSEIO DE BARCO",
-      title: "Descubra as maravilhas deste lugar paradisíaco",
-      subtitle:
-        "Muita diversão e alegria na atividade turística mais requisitada em Arraial do Cabo",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "Águas Cristalinas",
-        subtitle:
-          "Navegue por águas que parecem cristal, perfeita para admirar a vida marinha e os encantos subaquáticos.",
+        title: "A Definir",
+        subtitle: "A Definir",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "Praias Paradisíacas",
-        subtitle:
-          "Explore praias famosas, com areia branca e águas turquesas, com vistas deslumbrantes.",
+        title: "A Definir",
+        subtitle: "A Definir",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "Vida Marinha",
-        subtitle:
-          "Capture momentos inesquecíveis com vistas panorâmicas deslumbrantes.",
+        title: "A Definir",
+        subtitle: "A Definir",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "Conforto a Bordo",
-        subtitle:
-          "Desfrute de uma embarcação equipada com áreas sombreadas e ao ar livre, som ambiente.",
+        title: "A Definir",
+        subtitle: "A Definir",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
     },
     steps: {
-      miniTag: "SEM COMPLICAÇÕES",
-      title: "Como funciona nosso passeio?",
-      subtitle: "empty",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       imgSteps: imgSteps,
       cards: {
         card1: {
-          stepNumber: 1,
-          cardTitle: "Horários",
-          cardDescription:
-            "Passeios diários com saídas das 9h às 14h. Recomendamos chegar com pelo menos 30 minutos de antecedência.",
+          stepNumber: 0,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card2: {
-          stepNumber: 2,
-          cardTitle: "Duração",
-          cardDescription:
-            "São 4 horas intensas de puro encanto e diversão, onde você desfruta de todo conforto à bordo e da experiência única da paisagem.",
+          stepNumber: 0,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card3: {
-          stepNumber: 3,
-          cardTitle: "O que levar?",
-          cardDescription:
-            "Protetor solar, chapéu ou boné, toalha, roupa de banho, e uma câmera para registrar cada momento especial.",
+          stepNumber: 0,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
         card4: {
-          stepNumber: 4,
-          cardTitle: "Segurança",
-          cardDescription:
-            "Seguimos todos os protocolos de segurança e oferecemos coletes salva-vidas para todos os passageiros.",
+          stepNumber: 0,
+          cardTitle: "A Definir",
+          cardDescription: "A Definir",
         },
       },
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "CONTATE AGORA",
-      title: "Pronto para sua próxima aventura?",
-      subtitle:
-        "Entre em contato agora e comece a planejar uma experiência inesquecível em Arraial do Cabo!",
-      ctaButtonText: "Fale Conosco no WhatsApp",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
+      ctaButtonText: "A Definir",
     },
     testimonials: {
-      miniTag: "FEEDBACKS REAIS",
-      title: "Clientes sempre satisfeitos",
-      subtitle: "Nossos clientes são a prova do que oferecemos.",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -527,30 +501,25 @@ const content = {
       },
     },
     faq: {
-      miniTag: "TIRE SUAS DÚVIDAS",
-      title: "Perguntas Frequentes",
-      subtitle:
-        "Confira as perguntas abaixo para esclarecer suas dúvidas. Estamos aqui para ajudar!",
+      miniTag: "A Definir",
+      title: "A Definir",
+      subtitle: "A Definir",
       questions: {
         question1: {
-          question: "Posso levar meu próprio cooler para o passeio?",
-          answer:
-            "De acordo com a lei municipal 2.348/2021, é proibido entrar com cooler, bolsa térmica ou semelhantes, garrafas ou copos de vidro também são proibidos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question2: {
-          question: "Crianças pagam pelo passeio?",
-          answer:
-            "Crianças até 3 anos não pagam, entretanto, todas contam como passageiros à bordo do barco.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question3: {
-          question: "Se no dia do meu passeio estiver chovendo?",
-          answer:
-            "Caso não haja condições de desembarque ou visitação de algum local descrito acima, devido às condições do mar, compensamos o tempo em outro ponto turístico se possível for.",
+          question: "A Definir",
+          answer: "A Definir",
         },
         question4: {
-          question: "Até que horas posso chegar no barco?",
-          answer:
-            "Nosso passeio inicia a partir das 9:30h  (favor confirmar o horário), tendo que estar para o check-in com 1h de antecedência, lembrando que a cidade fica lotada sempre, então pedimos que saiam cedo para evitar que percam o passeio, caso aconteça de perder o horário, o valor não é reembolsado, pois sairemos com as vagas em aberto, o valor só é devolvido em caso de cancelamento do passeio por motivos climáticos.",
+          question: "A Definir",
+          answer: "A Definir",
         },
       },
     },
