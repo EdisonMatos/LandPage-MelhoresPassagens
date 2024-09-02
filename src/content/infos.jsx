@@ -1,23 +1,21 @@
 const infos = {
-  name: "Arraial Melhor Só o Céu",
+  name: "A Definir",
   slogan: "",
-  phone: "(22) 99961-4246",
-  mail: "reservas@arraialmelhorsooceu.com.br",
+  phone: "(A Definir) A Definir-A Definir",
+  mail: "contato@A Definir",
   footerInfos: {
-    endereco: <p>Arraial do Cabo - RJ</p>,
+    endereco: <p>A Definir</p>,
     expediente: (
       <p>
         Horário de expediente:
         <br />
-        Segunda a Sexta-feira
-        <br />
-        Das 9h às 20h30
+        A Definir
+        <br />A Definir
       </p>
     ),
     midSectionName: "Até mais! 😉",
     year: 2024,
-    footerText:
-      "Obrigado por nos visitar! Esperamos que em breve você se junte a nós para explorar todas as maravilhas que temos a oferecer.",
+    footerText: "A Definir",
   },
 };
 
