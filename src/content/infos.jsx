@@ -1,7 +1,7 @@
 const infos = {
-  name: "A Definir",
+  name: "Melhores Passagens",
   slogan: "",
-  phone: "(A Definir) A Definir-A Definir",
+  phone: "(71) 98381-2646",
   mail: "contato@A Definir",
   footerInfos: {
     endereco: <p>A Definir</p>,
@@ -9,8 +9,11 @@ const infos = {
       <p>
         Horário de expediente:
         <br />
-        A Definir
-        <br />A Definir
+        Segunda a quinta: 8h às 20h
+        <br />
+        Sexta: 8h às 16h
+        <br />
+        Domingos: 9h às 16h
       </p>
     ),
     midSectionName: "Até mais! 😉",
