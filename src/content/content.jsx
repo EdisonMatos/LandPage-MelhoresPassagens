@@ -115,14 +115,24 @@ const content = {
         img: aboutImg1,
         alt: "imagem A Definir",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "NOSSA TRAJETÓRIA",
+      title: "Quem somos?",
+      subtitle:
+        "A Melhores Passagens nasceu da necessidade de ajudar pessoas que desejam viajar, mas que muitas vezes se deparam com preços inacessíveis para o brasileiro comum.",
       paragraph: (
         <div>
-          A Definir
-          <br />
-          <br />A Definir
+          Buscamos democratizar o acesso a viagens aéreas, oferecendo passagens
+          com preços mais baixos do que os praticados no mercado. Sempre
+          proporcionando oportunidades para aqueles que, por questões
+          financeiras, não conseguem realizar o sonho de viajar. Sabemos que,
+          para o brasileiro, qualquer desconto faz uma grande diferença. Por
+          isso, trabalhamos para garantir tarifas mais acessíveis e possibilitar
+          que mais pessoas possam voar. Todas as passagens que oferecemos são
+          emitidas de forma confiável, diretamente com as companhias aéreas, por
+          meio de consolidadoras, assegurando segurança e tranquilidade em suas
+          compras.
+          {/* <br />
+          <br />A Definir */}
         </div>
       ),
       aboutSocial: {
