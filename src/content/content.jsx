@@ -43,10 +43,10 @@ const content = {
         alt: "Logomarca A Definir",
       },
       solidLogo: {
-        img: solidLogo,
+        img: logo,
         alt: "Logomarca A Definir",
       },
-      menuItems: ["Início", "Serviços", "A Definir", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
