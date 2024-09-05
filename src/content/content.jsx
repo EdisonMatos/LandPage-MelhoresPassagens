@@ -51,13 +51,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "PASSAGENS AÉREAS BARATAS",
+      title: (
+        <h1 className="mb-[16px]">Um novo conceito de agência de viagens</h1>
+      ),
+      subtitle:
+        "Passagens muito mais baratas que nos sites das companhias aéreas.",
+      ctaButtonText: "Faça uma cotação",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "Faça uma cotação",
       images: {
         background: bgHeroImg,
         static: {
@@ -79,8 +82,8 @@ const content = {
       },
     },
     trustedBy: {
-      title: "Nossas Marcas Parceiras",
-      subtitle: "Trabalhamos com as melhores marcas do mercado",
+      title: "",
+      subtitle: "",
       trustedMore: {
         title: "Seguradoras",
         subtitle:

@@ -6,9 +6,17 @@ import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
+import imgLaw from "../../assets/imgs/hero/aviao.png";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
+import imgHeroTrustedBy1 from "../../assets/imgs/hero/latam.png";
+import imgHeroTrustedBy2 from "../../assets/imgs/hero/gol.png";
+import imgHeroTrustedBy3 from "../../assets/imgs/hero/azul.png";
+import imgHeroTrustedBy4 from "../../assets/imgs/hero/tapPortugal.png";
+import imgHero1 from "../../assets/imgs/hero/azul.png";
+import imgHero2 from "../../assets/imgs/hero/latam.png";
+import imgHero3 from "../../assets/imgs/hero/gol.png";
+import imgHero4 from "../../assets/imgs/hero/tapPortugal.png";
 
 const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 
@@ -27,12 +35,12 @@ export default function Hero() {
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
-                    ADVOGADO DE FAMÍLIA E DO CONSUMIDOR EM BH - MG
+                    {content.texts.hero.miniTag}
                   </p>
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-lighter flex  justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                   <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
@@ -66,6 +74,16 @@ export default function Hero() {
                     />
                   </div>
                 </MotionDivLeftToRight>
+              </div>
+
+              <div className="pt-8">
+                <p className="text-white">Emitimos passagens para as principais companhias aéreas:</p>
+                <div className="flex max-h-[70px] w-[45.3%] phone3:max-h-[60px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet1:max-h-[70px] tablet2:max-h-[80px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[100px] desktop3:w-[29.7%] desktop3:max-h-[120px] gap-4">
+                  <img src={imgHero1} alt="" />
+                  <img src={imgHero2} alt="" />
+                  <img src={imgHero3} alt="" />
+                  <img src={imgHero4} alt="" />
+                </div>
               </div>
               {/* <div className="">
                 <MotionDivLeftToRight>
@@ -112,11 +130,11 @@ export default function Hero() {
                   alt="Foto de itens que representam a profissão de advogado"
                   className="w-[80%] rounded-3xl"
                 ></img>
-                <img
+                {/* <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-                ></img>
+                ></img> */}
               </MotionDivRightToLeft>
             </div>
           </div>

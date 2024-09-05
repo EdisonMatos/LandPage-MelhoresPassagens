@@ -2,7 +2,7 @@ import Faq from "../components/sections/Faq";
 import About from "../components/sections/About";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
-import HeroBgImg from "../components/sections/HeroBgImg";
+import Hero from "../components/sections/Hero";
 import FooterSocial from "../components/sections/FooterSocial";
 import NavbarSocial from "../components/sections/NavbarSocial";
 import HowItWorks from "../components/sections/HowItWorks";
@@ -17,7 +17,7 @@ export default function Index() {
   return (
     <div>
       <NavbarSocial />
-      <HeroBgImg />
+      <Hero />
       <FeaturesWithIcons />
       <HowItWorksImage />
       {/* <Numbers /> */}
