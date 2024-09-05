@@ -2,7 +2,7 @@ import links from "../../content/links";
 import MotionDivLeftToRight from "../animation/MotionDivLeftToRight";
 import MotionDivRightToLeft from "../animation/MotionDivRightToLeft";
 import content from "../../content/content";
-import bgHeroImg from "../../assets/imgs/hero/bgHeroPattern.png";
+import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
@@ -23,14 +23,14 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-repeat font-mainFont bg-gradient-to-b from-black to-bgSectionDark bg-bgSectionDark"
-      // style={{ backgroundImage: `url(${bgHeroImg})` }}
+      className="w-full bg-center bg-no-repeat bg-cover font-mainFont "
+      style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
+          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-0">
             <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px]">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
@@ -45,7 +45,7 @@ export default function Hero() {
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="flex text-center desktop1:text-left justify-left phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5">
+                <div className="flex text-center justify-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-left justify-left ">
                   <p className="text-lighter mb-[32px] opacity-80">
                     {content.texts.hero.subtitle}
                   </p>
@@ -77,12 +77,31 @@ export default function Hero() {
               </div>
 
               <div className="pt-8">
-                <p className="text-white">Emitimos passagens para as principais companhias aéreas:</p>
-                <div className="flex max-h-[70px] w-[45.3%] phone3:max-h-[60px] phone3:w-[39.3%] object-contain tablet1:w-[26.1%] tablet1:max-h-[70px] tablet2:max-h-[80px] desktop1:p-[20px] desktop1:w-[28.3%] desktop1:max-h-[100px] desktop3:w-[29.7%] desktop3:max-h-[120px] gap-4">
-                  <img src={imgHero1} alt="" />
-                  <img src={imgHero2} alt="" />
-                  <img src={imgHero3} alt="" />
-                  <img src={imgHero4} alt="" />
+                <p className="text-white phone1:flex text-center justify-center desktop1:justify-start desktop1:text-paragraph3 desktop1:text-left">
+                  Emitimos passagens para as principais companhias aéreas:
+                </p>
+                <div className=" flex w-full pt-4 items-center justify-center phone3:pt-6 desktop1:justify-start desktop1:pt-4 desktop1:gap-4">
+                  <img
+                    className="size-[20%] desktop3:size-[25%]"
+                    src={imgHero2}
+                    alt=""
+                  />
+                  <img
+                    className="size-[20%] desktop3:size-[15%]"
+                    src={imgHero3}
+                    alt=""
+                  />
+                  <img
+                    className="size-[20%] desktop3:size-[25%]"
+                    src={imgHero1}
+                    alt=""
+                  />
+
+                  <img
+                    className="size-[20%] desktop3:size-[25%]"
+                    src={imgHero4}
+                    alt=""
+                  />
                 </div>
               </div>
               {/* <div className="">
@@ -128,7 +147,7 @@ export default function Hero() {
                 <img
                   src={imgLaw}
                   alt="Foto de itens que representam a profissão de advogado"
-                  className="w-[80%] rounded-3xl"
+                  className="w-full rounded-3xl"
                 ></img>
                 {/* <img
                   src={imgPoints}
@@ -139,6 +158,19 @@ export default function Hero() {
             </div>
           </div>
         </div>
+      </div>
+      <div class="custom-shape-divider-top-1725566559">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
       </div>
       {/* <div className="bg-black bg-opacity-0">
         <div class="custom-shape-divider-bottom-1720203688">

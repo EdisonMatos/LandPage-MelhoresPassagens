@@ -68,3 +68,30 @@
   background: linear-gradient(to bottom, #03618C, #40A7BB);
 }
 
+
+
+
+//ShapeDivHero
+
+
+.custom-shape-divider-top-1725566559 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1725566559 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: scaleY(-1); /* Inverte a onda para cima */
+}
+
+.custom-shape-divider-top-1725566559 .shape-fill {
+  fill: #FFFFFF;
+}
+
