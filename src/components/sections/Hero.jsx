@@ -29,7 +29,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop3:pl-[5%]">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop1:pl-[5%]">
         <div className="w-full justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[95%] items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 h-auto ">
