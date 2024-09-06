@@ -140,14 +140,18 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "",
+        miniTag: "FIQUE POR DENTRO",
+        title: "Conheça seu novo destino",
+        subtitle:
+          "✈️ Quer saber das últimas tendências e dicas de viagens? Siga a Melhores Passagens no Instagram!",
         paragraph: (
           <p>
-            A Definir
+            Em nossas redes, você encontra atualizações sobre promoções de
+            passagens, destinos imperdíveis, dicas de viagem e muito mais!
             <br />
-            <br />A Definir
+            <br />
+            Esteja sempre preparado para sua próxima aventura com nossas
+            orientações especializadas.
           </p>
         ),
       },
