@@ -12,7 +12,7 @@ import Icon4 from "../../assets/imgs/icons/icon4.webp";
 
 export default function FeaturesWithIcons() {
   return (
-    <SectionArea id="service" className="squares">
+    <SectionArea id="service" className="">
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.features.miniTag}
