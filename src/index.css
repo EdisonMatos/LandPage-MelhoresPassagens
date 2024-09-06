@@ -61,37 +61,34 @@
 }
 
 .colortop-bottom {
-  background: linear-gradient(to bottom, #40A7BB, #03618C);
+  background: linear-gradient(to bottom, #40a7bb, #03618c);
 }
 
 .colorbottom-top {
-  background: linear-gradient(to bottom, #03618C, #40A7BB);
+  background: linear-gradient(to bottom, #03618c, #40a7bb);
 }
 
 
 
 
-//ShapeDivHero
-
-
-.custom-shape-divider-top-1725566559 {
-  position: absolute;
-  top: 0;
+.custom-shape-divider-bottom-1725634512 {
+  position: relative;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1725566559 svg {
+.custom-shape-divider-bottom-1725634512 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 150px;
-  transform: scaleY(-1); /* Inverte a onda para cima */
+  height: 107px;
+  transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1725566559 .shape-fill {
+.custom-shape-divider-bottom-1725634512 .shape-fill {
   fill: #FFFFFF;
 }
-
