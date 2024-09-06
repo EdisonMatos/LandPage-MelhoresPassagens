@@ -30,10 +30,10 @@ export default function Hero() {
       id="home"
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
-        <div className="w-full text-secondary justify-evenly">
+        <div className="w-full justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[95%] items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 h-auto ">
-            <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[50%]">
+            <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[50%] ">
               <MotionDivLeftToRight>
                 <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
                   <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
@@ -42,7 +42,7 @@ export default function Hero() {
                 </div>
               </MotionDivLeftToRight>
               <MotionDivLeftToRight>
-                <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
+                <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ">
                   <h1 className="">{content.texts.hero.title}</h1>
                 </div>
               </MotionDivLeftToRight>
@@ -79,10 +79,10 @@ export default function Hero() {
               </div>
 
               <div className="pt-8">
-                <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph5 desktop1:text-left">
+                <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
                   Emitimos passagens para as principais companhias aéreas:
                 </p>
-                <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:pt-4 desktop1:gap-4">
+                <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
                   <img
                     className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
                     src={imgHero1}
@@ -149,7 +149,7 @@ export default function Hero() {
                 <img
                   src={imgLaw}
                   alt="Foto de passaports"
-                  className="w-full rounded-3xl relative z-20 top-[5%]"
+                  className="w-full rounded-3xl relative z-20 desktop3:top-[10%]"
                 ></img>
                 {/* <img
                   src={imgPoints}

@@ -21,7 +21,7 @@ export default function Button({
     textclassName = "text-paragraph3 font-secondFont";
     gap = gap !== undefined ? gap : "gap-[10px]";
   } else {
-    sizeFeatures = "rounded-[10px] px-[30px] py-[16px]";
+    sizeFeatures = "rounded-[5px] px-[30px] py-[16px]";
     textclassName = "text-paragraph4 font-secondFont";
     gap = gap !== undefined ? gap : "gap-[20px]";
   }
