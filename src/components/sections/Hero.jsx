@@ -29,7 +29,7 @@ export default function Hero() {
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
+      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop3:pl-[5%]">
         <div className="w-full justify-evenly">
           <div className="h-[125px] desktop3:h-[140px]" />
           <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[95%] items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 h-auto ">
@@ -77,35 +77,36 @@ export default function Hero() {
                   </div>
                 </MotionDivLeftToRight>
               </div>
+              <MotionDivLeftToRight>
+                <div className="pt-8">
+                  <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
+                    Emitimos passagens para as principais companhias aéreas:
+                  </p>
+                  <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
+                    <img
+                      className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
+                      src={imgHero1}
+                      alt=""
+                    />
+                    <img
+                      className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
+                      src={imgHero2}
+                      alt=""
+                    />
+                    <img
+                      className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
+                      src={imgHero3}
+                      alt=""
+                    />
 
-              <div className="pt-8">
-                <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
-                  Emitimos passagens para as principais companhias aéreas:
-                </p>
-                <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
-                  <img
-                    className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
-                    src={imgHero1}
-                    alt=""
-                  />
-                  <img
-                    className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
-                    src={imgHero2}
-                    alt=""
-                  />
-                  <img
-                    className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
-                    src={imgHero3}
-                    alt=""
-                  />
-
-                  <img
-                    className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
-                    src={imgHero4}
-                    alt=""
-                  />
+                    <img
+                      className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
+                      src={imgHero4}
+                      alt=""
+                    />
+                  </div>
                 </div>
-              </div>
+              </MotionDivLeftToRight>
               {/* <div className="">
                 <MotionDivLeftToRight>
                   <p className="mb-[20px]">Baixe nosso app:</p>
