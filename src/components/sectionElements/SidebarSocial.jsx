@@ -155,7 +155,7 @@ export default function SidebarSocial() {
                               </a>
                             </li>
 
-                            <li>
+                            {/* <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
                                 <HelpCircle />
                                 <span className="ml-[8px]">
@@ -173,7 +173,7 @@ export default function SidebarSocial() {
                                 </span>
                                 <Ripple />
                               </a>
-                            </li>
+                            </li> */}
                           </ul>
                         </ul>
                       )}
