@@ -17,6 +17,7 @@ import imgHero1 from "../../assets/imgs/hero/latam.png";
 import imgHero2 from "../../assets/imgs/hero/gol.png";
 import imgHero3 from "../../assets/imgs/hero/azul.png";
 import imgHero4 from "../../assets/imgs/hero/tapPortugal.png";
+import SectionWrapper from "../sectionElements/SectionWrapper";
 
 //latam1 gol2 azul3 portugal4
 
@@ -29,85 +30,87 @@ export default function Hero() {
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
-      <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop1:pl-[5%]">
-        <div className="w-full justify-evenly">
-          <div className="h-[125px] desktop3:h-[140px]" />
-          <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-[95%] items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 h-auto ">
-            <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[50%] ">
-              <MotionDivLeftToRight>
-                <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
-                  <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
-                    {content.texts.hero.miniTag}
-                  </p>
-                </div>
-              </MotionDivLeftToRight>
-              <MotionDivLeftToRight>
-                <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ">
-                  <h1 className="">{content.texts.hero.title}</h1>
-                </div>
-              </MotionDivLeftToRight>
-              <MotionDivLeftToRight>
-                <div className="flex text-center justify-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-left desktop1:justify-start ">
-                  <p className="text-lighter mb-[32px] opacity-80">
-                    {content.texts.hero.subtitle}
-                  </p>
-                </div>
-              </MotionDivLeftToRight>
-              <div className="w-full phone2:w-full tablet2:w-auto">
-                <MotionDivLeftToRight>
-                  <div className="flex justify-center w-full desktop1:justify-start">
-                    <Button
-                      aria-label={content.texts.hero.ctaButtonAriaLabel}
-                      label={content.texts.hero.ctaButtonText}
-                      buttonLink={whatsappContactLink}
-                      gap="0px"
-                      // icon={
-                      //   <svg
-                      //     xmlns="http://www.w3.org/2000/svg"
-                      //     width="24"
-                      //     height="24"
-                      //     fill="currentColor"
-                      //     className="bi bi-whatsapp"
-                      //     viewBox="0 0 16 16"
-                      //   >
-                      //     <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                      //   </svg>
-                      // }
-                    />
+      <SectionArea paddingbot={false}>
+        <SectionWrapper>
+          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop1:pl-[5%] desktop3:pl-0">
+            <div className="w-full justify-evenly">
+              <div className="h-[125px] desktop3:h-0" />
+              <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-full items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 desktop3:pb-6 ">
+                <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[80%] ">
+                  <MotionDivLeftToRight>
+                    <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
+                      <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                        {content.texts.hero.miniTag}
+                      </p>
+                    </div>
+                  </MotionDivLeftToRight>
+                  <MotionDivLeftToRight>
+                    <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ">
+                      <h1 className="">{content.texts.hero.title}</h1>
+                    </div>
+                  </MotionDivLeftToRight>
+                  <MotionDivLeftToRight>
+                    <div className="flex text-center justify-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-left desktop1:justify-start ">
+                      <p className="text-lighter mb-[32px] opacity-80">
+                        {content.texts.hero.subtitle}
+                      </p>
+                    </div>
+                  </MotionDivLeftToRight>
+                  <div className="w-full phone2:w-full tablet2:w-auto">
+                    <MotionDivLeftToRight>
+                      <div className="flex justify-center w-full desktop1:justify-start">
+                        <Button
+                          aria-label={content.texts.hero.ctaButtonAriaLabel}
+                          label={content.texts.hero.ctaButtonText}
+                          buttonLink={whatsappContactLink}
+                          gap="0px"
+                          // icon={
+                          //   <svg
+                          //     xmlns="http://www.w3.org/2000/svg"
+                          //     width="24"
+                          //     height="24"
+                          //     fill="currentColor"
+                          //     className="bi bi-whatsapp"
+                          //     viewBox="0 0 16 16"
+                          //   >
+                          //     <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                          //   </svg>
+                          // }
+                        />
+                      </div>
+                    </MotionDivLeftToRight>
                   </div>
-                </MotionDivLeftToRight>
-              </div>
-              <MotionDivLeftToRight>
-                <div className="pt-8">
-                  <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
-                    Emitimos passagens para as principais companhias aéreas:
-                  </p>
-                  <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
-                    <img
-                      className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
-                      src={imgHero1}
-                      alt=""
-                    />
-                    <img
-                      className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
-                      src={imgHero2}
-                      alt=""
-                    />
-                    <img
-                      className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
-                      src={imgHero3}
-                      alt=""
-                    />
+                  <MotionDivLeftToRight>
+                    <div className="pt-8">
+                      <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
+                        Emitimos passagens para as principais companhias aéreas:
+                      </p>
+                      <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
+                        <img
+                          className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
+                          src={imgHero1}
+                          alt=""
+                        />
+                        <img
+                          className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
+                          src={imgHero2}
+                          alt=""
+                        />
+                        <img
+                          className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
+                          src={imgHero3}
+                          alt=""
+                        />
 
-                    <img
-                      className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
-                      src={imgHero4}
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </MotionDivLeftToRight>
-              {/* <div className="">
+                        <img
+                          className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
+                          src={imgHero4}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </MotionDivLeftToRight>
+                  {/* <div className="">
                 <MotionDivLeftToRight>
                   <p className="mb-[20px]">Baixe nosso app:</p>
                   <div className="">
@@ -139,30 +142,31 @@ export default function Hero() {
                   </div>
                 </MotionDivLeftToRight>
               </div> */}
-            </div>
-            <div className="hidden desktop1:flex">
-              <MotionDivRightToLeft className="relative flex justify-end">
-                {/* <img
+                </div>
+                <div className="hidden desktop1:flex desktop3:w-[1200px] desktop3:relative desktop3:left-[5%]">
+                  <MotionDivRightToLeft className="relative flex justify-end ">
+                    {/* <img
                   src={imgLaw}
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
-                <img
-                  src={imgLaw}
-                  alt="Foto de passaports"
-                  className="w-full rounded-3xl relative z-20 desktop3:top-[10%]"
-                ></img>
-                {/* <img
+                    <img
+                      src={imgLaw}
+                      alt="Foto de passaports"
+                      className="w-full rounded-3xl relative z-20 desktop3:top-[15%]"
+                    ></img>
+                    {/* <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
                 ></img> */}
-              </MotionDivRightToLeft>
+                  </MotionDivRightToLeft>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-
+        </SectionWrapper>
+      </SectionArea>
       <div className="custom-shape-divider-bottom-1725634512 relative z-0">
         <svg
           data-name="Layer 1"
