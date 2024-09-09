@@ -68,9 +68,6 @@
   background: linear-gradient(to bottom, #03618c, #40a7bb);
 }
 
-
-
-
 .custom-shape-divider-bottom-1725634512 {
   position: relative;
   bottom: 0;
@@ -90,5 +87,27 @@
 }
 
 .custom-shape-divider-bottom-1725634512 .shape-fill {
+  fill: #ffffff;
+}
+
+//shappeDiv com ondas viaradas para cima
+.custom-shape-divider-top-1725902583 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1725902583 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+  top:100px;
+}
+
+.custom-shape-divider-top-1725902583 .shape-fill {
   fill: #FFFFFF;
 }
