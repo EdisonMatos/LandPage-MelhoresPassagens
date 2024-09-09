@@ -9,7 +9,7 @@ import HowItWorks from "../components/sections/HowItWorks";
 import FeaturesWithIcons from "../components/sections/FeaturesWithIcons";
 import Numbers from "../components/sections/Numbers";
 import AboutInstagram from "../components/sections/AboutInstagram";
-import HowItWorksImage from "../components/sections/HowItWorksImage";
+// import HowItWorksImage from "../components/sections/HowItWorksImage";
 import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
 
@@ -19,7 +19,7 @@ export default function Index() {
       <NavbarSocial />
       <HeroBgImg />
       <FeaturesWithIcons />
-      <HowItWorksImage />
+      {/* <HowItWorksImage /> */}
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
