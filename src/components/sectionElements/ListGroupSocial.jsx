@@ -117,9 +117,9 @@ export default function ListGroupSocial() {
           ></div>
         </Link>
       </li>
-      {/* <li className="transition group h-[24px]">
+      <li className="transition group h-[24px]">
         <Link
-          to="faq"
+          to="feedback"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
@@ -143,7 +143,7 @@ export default function ListGroupSocial() {
             }`}
           ></div>
         </Link>
-      </li> */}
+      </li>
       <li>
         <div className="flex gap-[10px] items-center">
           <Button

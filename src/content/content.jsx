@@ -46,7 +46,7 @@ const content = {
         img: logo,
         alt: "Logomarca A Definir",
       },
-      menuItems: ["Início", "Serviços", "Quem Somos", "Perguntas Frequentes"],
+      menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
       ctaButtonText: "Contato",
       ctaButtonTextResponsive: "Contato",
     },
