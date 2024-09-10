@@ -88,62 +88,6 @@ export default function Depositions() {
                     />
                   </div>
                 </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img9.img}
-                      alt={content.texts.testimonials.images.img9.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img10.img}
-                      alt={content.texts.testimonials.images.img10.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img11.img}
-                      alt={content.texts.testimonials.images.img11.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img12.img}
-                      alt={content.texts.testimonials.images.img12.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img13.img}
-                      alt={content.texts.testimonials.images.img13.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img14.img}
-                      alt={content.texts.testimonials.images.img14.alt}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div>
-                    <img
-                      src={content.texts.testimonials.images.img15.img}
-                      alt={content.texts.testimonials.images.img15.alt}
-                    />
-                  </div>
-                </div>
               </CarouselDivisV1>
             </div>
           </MotionDivDownToUp>

@@ -30,21 +30,15 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/imgTestimonial1.jpg";
-import imgTestimonial2 from "../assets/imgs/testimonials/imgTestimonial2.jpg";
-import imgTestimonial3 from "../assets/imgs/testimonials/imgTestimonial3.jpg";
-import imgTestimonial4 from "../assets/imgs/testimonials/imgTestimonial4.jpg";
-import imgTestimonial5 from "../assets/imgs/testimonials/imgTestimonial5.jpg";
-import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.jpg";
-import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.jpg";
-import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.jpg";
-import imgTestimonial9 from "../assets/imgs/testimonials/imgTestimonial9.jpg";
-import imgTestimonial10 from "../assets/imgs/testimonials/imgTestimonial10.jpg";
-import imgTestimonial11 from "../assets/imgs/testimonials/imgTestimonial11.jpg";
-import imgTestimonial12 from "../assets/imgs/testimonials/imgTestimonial12.jpg";
-import imgTestimonial13 from "../assets/imgs/testimonials/imgTestimonial13.jpg";
-import imgTestimonial14 from "../assets/imgs/testimonials/imgTestimonial14.jpg";
-import imgTestimonial15 from "../assets/imgs/testimonials/imgTestimonial15.jpg";
+import imgTestimonial1 from "../assets/imgs/testimonials/imgTestimonial1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/imgTestimonial2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/imgTestimonial3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/imgTestimonial4.png";
+import imgTestimonial5 from "../assets/imgs/testimonials/imgTestimonial5.png";
+import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.png";
+import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.png";
+import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.png";
+
 
 const content = {
   texts: {
@@ -527,34 +521,6 @@ const content = {
         },
         img8: {
           img: imgTestimonial8,
-          alt: "Imagem de feedback",
-        },
-        img9: {
-          img: imgTestimonial9,
-          alt: "Imagem de feedback",
-        },
-        img10: {
-          img: imgTestimonial10,
-          alt: "Imagem de feedback",
-        },
-        img11: {
-          img: imgTestimonial11,
-          alt: "Imagem de feedback",
-        },
-        img12: {
-          img: imgTestimonial12,
-          alt: "Imagem de feedback",
-        },
-        img13: {
-          img: imgTestimonial13,
-          alt: "Imagem de feedback",
-        },
-        img14: {
-          img: imgTestimonial14,
-          alt: "Imagem de feedback",
-        },
-        img15: {
-          img: imgTestimonial15,
           alt: "Imagem de feedback",
         },
       },
