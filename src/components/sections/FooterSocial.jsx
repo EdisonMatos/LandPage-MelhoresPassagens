@@ -303,7 +303,7 @@ function FooterSocial() {
                 </div>
                 <div className="h-[36px] hover:underline">
                   <Link
-                    to="faq"
+                    to="feedback"
                     className="cursor-pointer"
                     spy={true}
                     smooth={true}
