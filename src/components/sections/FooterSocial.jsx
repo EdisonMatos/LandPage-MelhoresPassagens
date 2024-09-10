@@ -14,7 +14,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 function FooterSocial() {
   return (
     <footer
-      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 colorbottom-top text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
+      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 bg-[#03618C] text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
       // style={{ backgroundImage: `url(${paralaxeFooter})` }}
     >
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
