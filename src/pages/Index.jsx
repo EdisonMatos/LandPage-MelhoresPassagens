@@ -23,8 +23,8 @@ export default function Index() {
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
-      <CtaMinimal />
       <Depositions />
+      <CtaMinimal />
       {/* <Faq /> */}
       <FooterSocial />
       <FloatingWhatsappButton />
