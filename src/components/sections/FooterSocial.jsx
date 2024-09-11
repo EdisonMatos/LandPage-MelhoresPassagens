@@ -326,7 +326,7 @@ function FooterSocial() {
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full opacity-75">
-          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados.`}
         </p>
         <p>
           <a
@@ -335,7 +335,7 @@ function FooterSocial() {
             href="https://www.paperstreet.com.br"
           >
             {" "}
-            Gostaria de ter um site como este? Clique aqui
+            Gostaria de ter um site como este? Clique aqui.
           </a>
         </p>
       </div>

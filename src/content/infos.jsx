@@ -2,7 +2,7 @@ const infos = {
   name: "Melhores Passagens",
   slogan: "",
   phone: "(71) 98381-2646",
-  mail: "contato@A Definir",
+  mail: "contato@agmelhorespassagens.com.br",
   footerInfos: {
     endereco: <p>A Definir</p>,
     expediente: (
@@ -19,7 +19,7 @@ const infos = {
     midSectionName: "Boa viagem! 👋",
     year: 2024,
     footerText:
-      "Obrigado por nos visitar! Esperamos que em breve você embarque com a gente para descobrir todos os destinos incríveis que temos a oferecer.",
+      "Obrigado por nos visitar! Esperamos que em breve você embarque conosco  para descobrir todos os destinos incríveis que temos a oferecer.",
   },
 };
 
