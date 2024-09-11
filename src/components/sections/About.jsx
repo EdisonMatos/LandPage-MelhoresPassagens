@@ -61,23 +61,23 @@ export default function About() {
     <SectionArea id="about" className="bg-bgSectionDark" paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          {/* <div
+          <div
             style={{
               backgroundImage: `url(${content.texts.about.imagem.img})`,
             }}
-            className="relative desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[467px] rounded-2xl"
+            className="relative desktop1:bg-center bg-no-repeat bg-cover w-full h-[450px] tablet1:h-[800px] desktop1:h-[650px] rounded-2xl"
           >
             <img
               alt="Imagem de efeito pontilhado"
               src={imgPoints}
               className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
             ></img>
-          </div> */}
-          <img
+          </div>
+          {/* <img
             src={content.texts.about.imagem.img}
-            alt="Imagem de uma praia de Arraial"
-            className=""
-          />
+            alt="Casal em viagem"
+            className="bg-bottom h-[290px] desktop1:h-[650px] rounded-2xl"
+          /> */}
         </MotionDivDownToUp>
 
         <div className="desktop1:w-[550px] desktop2:w-[570px] ">

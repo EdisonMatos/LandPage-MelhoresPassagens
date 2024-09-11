@@ -30,10 +30,15 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/testimonial1.jpg";
-import imgTestimonial2 from "../assets/imgs/testimonials/testimonial2.jpg";
-import imgTestimonial3 from "../assets/imgs/testimonials/testimonial3.jpg";
-import imgTestimonial4 from "../assets/imgs/testimonials/testimonial4.jpg";
+import imgTestimonial1 from "../assets/imgs/testimonials/imgTestimonial1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/imgTestimonial2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/imgTestimonial3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/imgTestimonial4.png";
+import imgTestimonial5 from "../assets/imgs/testimonials/imgTestimonial5.png";
+import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.png";
+import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.png";
+import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.png";
+
 
 const content = {
   texts: {
@@ -43,7 +48,7 @@ const content = {
         alt: "Logomarca A Definir",
       },
       solidLogo: {
-        img: solidLogo,
+        img: logo,
         alt: "Logomarca A Definir",
       },
       menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
@@ -51,13 +56,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "A Definir",
-      title: <h1 className="mb-[16px]">A Definir</h1>,
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "PASSAGENS AÉREAS BARATAS",
+      title: (
+        <h1 className="mb-[16px]">Um novo conceito de agência de viagens</h1>
+      ),
+      subtitle:
+        "Passagens muito mais baratas que nos sites das companhias aéreas.",
+      ctaButtonText: "Faça uma cotação",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      secondaryCta: "A Definir",
+      secondaryCta: "Faça uma cotação",
       images: {
         background: bgHeroImg,
         static: {
@@ -79,8 +87,8 @@ const content = {
       },
     },
     trustedBy: {
-      title: "Nossas Marcas Parceiras",
-      subtitle: "Trabalhamos com as melhores marcas do mercado",
+      title: "",
+      subtitle: "",
       trustedMore: {
         title: "Seguradoras",
         subtitle:
@@ -478,9 +486,10 @@ const content = {
       ctaButtonText: "A Definir",
     },
     testimonials: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "FEEDBACKS REAIS",
+      title: "Depoimentos que falam por si",
+      subtitle:
+        "Nossos clientes são a maior prova da qualidade e compromisso que oferecemos.",
       images: {
         img1: {
           img: imgTestimonial1,
@@ -496,6 +505,22 @@ const content = {
         },
         img4: {
           img: imgTestimonial4,
+          alt: "Imagem de feedback",
+        },
+        img5: {
+          img: imgTestimonial5,
+          alt: "Imagem de feedback",
+        },
+        img6: {
+          img: imgTestimonial6,
+          alt: "Imagem de feedback",
+        },
+        img7: {
+          img: imgTestimonial7,
+          alt: "Imagem de feedback",
+        },
+        img8: {
+          img: imgTestimonial8,
           alt: "Imagem de feedback",
         },
       },

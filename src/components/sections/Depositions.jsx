@@ -8,6 +8,7 @@ import CarouselDivisV1 from "../../components/interactives/CarouselDivsV1";
 export default function Depositions() {
   return (
     <div className="relative colortop-bottom">
+
       <SectionArea className="" id="feedback" paddingbot={false}>
         <MotionDivDownToUp className="w-full flex justify-center">
           <SectionHeader
@@ -53,6 +54,38 @@ export default function Depositions() {
                     <img
                       src={content.texts.testimonials.images.img4.img}
                       alt={content.texts.testimonials.images.img4.alt}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img5.img}
+                      alt={content.texts.testimonials.images.img5.alt}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img6.img}
+                      alt={content.texts.testimonials.images.img6.alt}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img7.img}
+                      alt={content.texts.testimonials.images.img7.alt}
+                    />
+                  </div>
+                </div>
+                <div className="flex justify-center">
+                  <div>
+                    <img
+                      src={content.texts.testimonials.images.img8.img}
+                      alt={content.texts.testimonials.images.img8.alt}
                     />
                   </div>
                 </div>
