@@ -1,4 +1,4 @@
-import Faq from "../components/sections/Faq";
+// import Faq from "../components/sections/Faq";
 import About from "../components/sections/About";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";

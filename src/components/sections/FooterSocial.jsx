@@ -14,8 +14,8 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 function FooterSocial() {
   return (
     <footer
-      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${paralaxeFooter})` }}
+      className=" full gap-y-[42px] font-secondFont text-left text-paragraph4 bg-[#03618C] text-lighter flex flex-col py-[26px] phone3:py-[48px] justify-between items-center bg-cover bg-center bg-no-repeat"
+      // style={{ backgroundImage: `url(${paralaxeFooter})` }}
     >
       <div className=" w-[90%] max-w-[1215px] flex flex-col gap-y-[80px]  desktop1:flex-row desktop1:justify-between">
         <div className="flex flex-col gap-y-[16px] desktop1:w-[290px] text-paragraph3">
@@ -88,7 +88,7 @@ function FooterSocial() {
                 <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
                 <circle cx="12" cy="10" r="3" />
               </svg>
-              <p>{infos.footerInfos.endereco}</p>
+              <p>{infos.footerInfos.expediente}</p>
             </div>
           </MotionDivDownToUp>
 
@@ -194,7 +194,7 @@ function FooterSocial() {
                     }
                   />
                 </a>
-                <a
+                {/* <a
                   href={links.socialMedia.twitter}
                   target="_blank"
                   aria-label="Link para o Twitter"
@@ -218,7 +218,7 @@ function FooterSocial() {
                       </svg>
                     }
                   />
-                </a>
+                </a> */}
                 {/* <a href={links.socialMedia.linkedin} target="_blank">
                   <IconButton
                     icon={
@@ -303,7 +303,7 @@ function FooterSocial() {
                 </div>
                 <div className="h-[36px] hover:underline">
                   <Link
-                    to="faq"
+                    to="feedback"
                     className="cursor-pointer"
                     spy={true}
                     smooth={true}
@@ -326,7 +326,7 @@ function FooterSocial() {
 
       <div className="text-center w-[88%] max-w-[1110px] flex flex-col mb-[48px] phone2:mb-[80px] tablet1:mb-0">
         <p className="w-full opacity-75">
-          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados`}
+          {`${infos.footerInfos.year} - ${infos.name} - Todos os direitos reservados.`}
         </p>
         <p>
           <a
@@ -335,7 +335,7 @@ function FooterSocial() {
             href="https://www.paperstreet.com.br"
           >
             {" "}
-            Gostaria de ter um site como este? Clique aqui
+            Gostaria de ter um site como este? Clique aqui.
           </a>
         </p>
       </div>

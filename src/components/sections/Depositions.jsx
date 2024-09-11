@@ -7,7 +7,8 @@ import CarouselDivisV1 from "../../components/interactives/CarouselDivsV1";
 
 export default function Depositions() {
   return (
-    <div className="relative colorbottom-top">
+    <div className="relative colortop-bottom">
+
       <SectionArea className="" id="feedback" paddingbot={false}>
         <MotionDivDownToUp className="w-full flex justify-center">
           <SectionHeader
