@@ -15,14 +15,15 @@ export default function Button({
   removeAnchor,
   tagName,
 }) {
+ 
   if (size === "small") {
     sizeFeatures = "rounded-[5px] px-[18px] py-[10px]";
     textclassName = "text-paragraph3 font-secondFont";
-    gap = "gap-[10px]";
+    gap = gap !== undefined ? gap : "gap-[10px]";
   } else {
-    sizeFeatures = "rounded-[10px] px-[30px] py-[16px]";
+    sizeFeatures = "rounded-[5px] px-[30px] py-[16px]";
     textclassName = "text-paragraph4 font-secondFont";
-    gap = "gap-[20px]";
+    gap = gap !== undefined ? gap : "gap-[20px]";
   }
 
   return (
@@ -34,11 +35,7 @@ export default function Button({
     >
       <button
         onClick={onClick}
-        // Botão alternando cor sem usar o invert
-        // className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary hover:bg-secondary hover:text-primary text-secondary hover:border-solid border-[1px] border-primary hover:border-primary`}
-
-        // Botão com hover scale sem mudanca de cor
-        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-darker  hover:scale-110`}
+        className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition bg-primary text-darker hover:scale-110`}
       >
         <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
           <div className="">{icon}</div>

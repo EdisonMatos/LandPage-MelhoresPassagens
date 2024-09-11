@@ -43,11 +43,11 @@ export default function TrustedBy() {
 
   return (
     <SectionArea className="">
-      <SectionHeader
-        className="text-center"
+      {/* <SectionHeader
+        className="text-left"
         sectionHeaderTitle={content.texts.trustedBy.title}
         sectionHeaderSubtitle={content.texts.trustedBy.subtitle}
-      />
+      /> */}
       <SectionWrapper>
         <MotionDivDownToUp className="w-full">
           <LogoDisplay images={images} />

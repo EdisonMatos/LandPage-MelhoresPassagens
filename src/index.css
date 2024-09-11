@@ -61,10 +61,53 @@
 }
 
 .colortop-bottom {
-  background: linear-gradient(to bottom, #40A7BB, #03618C);
+  background: linear-gradient(to bottom, #40a7bb, #03618c);
 }
 
 .colorbottom-top {
-  background: linear-gradient(to bottom, #03618C, #40A7BB);
+  background: linear-gradient(to bottom, #03618c, #40a7bb);
 }
 
+.custom-shape-divider-bottom-1725634512 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1725634512 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 107px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1725634512 .shape-fill {
+  fill: #ffffff;
+}
+
+//shappeDiv com ondas viaradas para cima
+.custom-shape-divider-top-1725902583 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1725902583 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 110px;
+  top:100px;
+}
+
+.custom-shape-divider-top-1725902583 .shape-fill {
+  fill: #FFFFFF;
+}
