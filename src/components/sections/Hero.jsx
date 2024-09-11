@@ -45,7 +45,7 @@ export default function Hero() {
                     </div>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
-                    <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[46px] phone3:leading-[50px] tablet1:leading-[60px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ">
+                    <div className="text-lighter flex justify-center tablet1:justify-start font-bold leading-[36px] phone2:leading-[43px] tablet1:leading-[65px] desktop1:leading-[60px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7 ">
                       <h1 className="">{content.texts.hero.title}</h1>
                     </div>
                   </MotionDivLeftToRight>
@@ -89,23 +89,23 @@ export default function Hero() {
                         <img
                           className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
                           src={imgHero1}
-                          alt=""
+                          alt="Logomarca da Latam"
                         />
                         <img
                           className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
                           src={imgHero2}
-                          alt=""
+                          alt="Logomarca da Gol"
                         />
                         <img
                           className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
                           src={imgHero3}
-                          alt=""
+                          alt="Logomarca da Azul"
                         />
 
                         <img
                           className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
                           src={imgHero4}
-                          alt=""
+                          alt="Logomarca da AirPortugal"
                         />
                       </div>
                     </div>
