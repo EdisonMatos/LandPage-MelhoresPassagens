@@ -133,3 +133,10 @@
 .custom-shape-divider-top-1726083554 .shape-fill {
   fill: #FFFFFF;
 }
+
+@media (max-width: 1023px) {
+  .custom-shape-divider-top-1726083554 svg {
+    height: 60px;
+    transform: translateY(90%);
+  }
+}
