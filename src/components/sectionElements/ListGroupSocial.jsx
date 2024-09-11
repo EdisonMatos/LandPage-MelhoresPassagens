@@ -119,7 +119,7 @@ export default function ListGroupSocial() {
       </li>
       <li className="transition group h-[24px]">
         <Link
-          to="faq"
+          to="feedback"
           className="relative font-semibold cursor-pointer"
           spy={true}
           smooth={true}
