@@ -32,10 +32,10 @@ export default function Hero() {
     >
       <SectionArea paddingbot={false}>
         <SectionWrapper>
-          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop1:pl-[5%] desktop3:pl-0">
+          <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left desktop1:pl desktop3:pl-0">
             <div className="w-full justify-evenly">
-              <div className="h-[125px] desktop3:h-0" />
-              <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-full items-center pb-[10px] pt-[46px] desktop1:pt-0 desktop1:pb-0 desktop3:pb-6 ">
+              <div className="" />
+              <div className="flex phone1:flex-col desktop1:flex-row mx-auto w-full items-center py-[46px] tablet1:py-[70px] desktop1:py-[30px] desktop3:pb-6 ">
                 <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[80%] ">
                   <MotionDivLeftToRight>
                     <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
