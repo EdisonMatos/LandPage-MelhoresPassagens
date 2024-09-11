@@ -105,9 +105,31 @@
   display: block;
   width: calc(100% + 1.3px);
   height: 110px;
-  top:100px;
+  top: 100px;
 }
 
 .custom-shape-divider-top-1725902583 .shape-fill {
+  fill: #ffffff;
+}
+
+//ondas para baixo
+.custom-shape-divider-top-1726083554 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1726083554 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  transform: translateY(95%);
+}
+
+.custom-shape-divider-top-1726083554 .shape-fill {
   fill: #FFFFFF;
 }
