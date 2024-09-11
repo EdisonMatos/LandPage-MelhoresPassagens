@@ -39,7 +39,6 @@ import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.png";
 import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.png";
 import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.png";
 
-
 const content = {
   texts: {
     navbar: {
@@ -416,35 +415,51 @@ const content = {
       },
     },
     features: {
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "CONHEÇA O MUNDO",
+      title: "Mais tranquilidade em suas viagens",
+      subtitle: "Cuidamos de tudo para você aproveitar ao máximo cada destino.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        svgIcon: (
+          
+        ),
+        title: "Cotação de passagens",
+        subtitle:
+          "Comparamos preços de passagens para garantir a melhor oferta do mercado.",
         img: featuresImg1,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre sites.`,
       },
       card2: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        svgIcon: (
+          
+        ),
+        title: "Análise de rotas",
+        subtitle:
+          "Recomendamos o trajeto ideal para uma viagem mais confortável e sem preocupações.",
         img: featuresImg2,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card3: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        svgIcon: (
+          
+        ),
+        title: "Check-in e Embarque",
+        subtitle:
+          "Cuidamos do seu check-in e acompanhamos todo o processo de embarque, sem complicações.",
         img: featuresImg3,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
       },
       card4: {
-        title: "A Definir",
-        subtitle: "A Definir",
+        svgIcon: (
+         
+        ),
+        title: "Assessoria jurídica",
+        subtitle:
+          "Em caso de problemas no aeroporto, nossa equipe jurídica estará à disposição para solucionar qualquer questão.",
         img: featuresImg4,
         buttonLabel: "Saiba mais",
         buttonLink: `${links.whatsapp}Olá! Vim através do site e gostaria de saber sobre landing pages.`,
