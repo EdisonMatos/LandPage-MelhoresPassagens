@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#FFC90B", // Com primária (variação clara)
-        secondary: "#12759C", // Cor primária (variação escura)
+        secondary: "#130772", // Cor primária (variação escura)
         bgSectionLight: "#FFFFFF",
         bgSectionDark: "#40A7BB",
         links: "#0189BB", // Links

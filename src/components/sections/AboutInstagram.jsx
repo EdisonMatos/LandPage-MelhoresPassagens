@@ -13,7 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
-import imgPhone from "../../assets/imgs/about/aboutSocialEffectsTablet.webp";
+import imgPhone from "../../assets/imgs/about/aboutSocialEffectsTablet.png";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -142,7 +142,7 @@ export default function AboutInstagram() {
           <div className="flex flex-col gap-4">
             <MotionDivDownToUp>
               <Button
-                label="Siga nosso Instagram"
+                label="Siga-nos no Instagram"
                 buttonLink={links.socialMedia.instagram}
                 icon={
                   <svg
@@ -165,7 +165,7 @@ export default function AboutInstagram() {
               />
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <Button
                 label="Siga nosso Twitter"
                 buttonLink={links.socialMedia.twitter}
@@ -186,7 +186,7 @@ export default function AboutInstagram() {
                   </svg>
                 }
               />
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
           </div>
 
           {/* Fim Botão de saiba mais abrindo modal */}
