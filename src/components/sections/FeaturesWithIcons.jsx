@@ -6,7 +6,7 @@ import content from "../../content/content";
 import IconFeatureCard from "../cards/IconFeatureCard";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Icon1 from "../../assets/imgs/icons/icon1.webp";
-import Icon2 from "../../assets/imgs/icons/icon2.webp";
+import Icon2 from "../../assets/imgs/icons/icon2.webp"; 
 import Icon3 from "../../assets/imgs/icons/icon3.webp";
 import Icon4 from "../../assets/imgs/icons/icon4.webp";
 
