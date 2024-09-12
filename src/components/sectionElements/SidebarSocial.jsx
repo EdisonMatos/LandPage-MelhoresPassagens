@@ -166,7 +166,7 @@ export default function SidebarSocial() {
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-160}
+                                    offset={-120}
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[3]}
