@@ -308,7 +308,7 @@ function FooterSocial() {
                     spy={true}
                     smooth={true}
                     duration={500}
-                    offset={-50}
+                    offset={-130}
                     href="#"
                   >
                     <span className="inline-block h-[48px] underline hover:scale-110 transition">
