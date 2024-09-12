@@ -60,7 +60,7 @@ export default function About() {
   return (
     <SectionArea
       id="about"
-      className="degrade-to-bot-black-secondary tablet1:pt-[106px] desktop1:pt-[160px]"
+      className="degrade-to-bot-black-secondary tablet1:pt-[106px] desktop1:pt-[161px]"
       paddingbot={false}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
