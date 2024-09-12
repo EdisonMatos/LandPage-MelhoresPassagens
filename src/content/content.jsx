@@ -422,7 +422,26 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         svgIcon: (
-          
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-tickets-plane"
+          >
+            <path d="M10.5 17h1.227a2 2 0 0 0 1.345-.52L18 12" />
+            <path d="m12 13.5 3.75.5" />
+            <path d="m4.5 8 10.58-5.06a1 1 0 0 1 1.342.488L18.5 8" />
+            <path d="M6 10V8" />
+            <path d="M6 14v1" />
+            <path d="M6 19v2" />
+            <rect x="2" y="8" width="20" height="13" rx="2" />
+          </svg>
         ),
         title: "Cotação de passagens",
         subtitle:
@@ -433,7 +452,22 @@ const content = {
       },
       card2: {
         svgIcon: (
-          
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-map"
+          >
+            <path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z" />
+            <path d="M15 5.764v15" />
+            <path d="M9 3.236v15" />
+          </svg>
         ),
         title: "Análise de rotas",
         subtitle:
@@ -444,7 +478,21 @@ const content = {
       },
       card3: {
         svgIcon: (
-          
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-plane-takeoff"
+          >
+            <path d="M2 22h20" />
+            <path d="M6.36 17.4 4 17l-2-4 1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12 5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.41 2.41 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z" />
+          </svg>
         ),
         title: "Check-in e Embarque",
         subtitle:
@@ -455,7 +503,24 @@ const content = {
       },
       card4: {
         svgIcon: (
-         
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
         ),
         title: "Assessoria jurídica",
         subtitle:
