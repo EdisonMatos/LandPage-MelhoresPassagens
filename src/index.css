@@ -76,6 +76,7 @@
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  top: 1px;
 }
 
 .custom-shape-divider-bottom-1725634512 svg {
@@ -84,6 +85,13 @@
   width: calc(100% + 1.3px);
   height: 107px;
   transform: rotateY(180deg);
+  top: 0px;
+}
+
+@media (max-width: 1023px) {
+  .custom-shape-divider-bottom-1725634512 svg {
+    height: 30px;
+  }
 }
 
 .custom-shape-divider-bottom-1725634512 .shape-fill {
@@ -131,7 +139,7 @@
 }
 
 .custom-shape-divider-top-1726083554 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 @media (max-width: 1023px) {
