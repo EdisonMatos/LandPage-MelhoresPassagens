@@ -26,7 +26,7 @@ const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function Hero() {
   return (
     <div
-      className="w-full bg-center bg-no-repeat bg-cover font-mainFont h-auto"
+      className="w-full h-auto bg-center bg-no-repeat bg-cover font-mainFont"
       style={{ backgroundImage: `url(${bgHeroImg})` }}
       id="home"
     >
@@ -39,7 +39,7 @@ export default function Hero() {
                 <div className="flex flex-col w-full desktop1:w-[60%] desktop1:mr-[20px] desktop2:w-[80%] ">
                   <MotionDivLeftToRight>
                     <div className="w-auto text-center desktop1:text-left font-secondFont phone1:text-paragraph4">
-                      <p className="mb-[16px] bg-secondary bg-opacity-25 text-lighter rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
+                      <p className="mb-[16px] bg-primary bg-opacity-100 font-medium text-secondary rounded-2xl px-[16px] py-[6px] inline-block text-paragraph2">
                         {content.texts.hero.miniTag}
                       </p>
                     </div>
@@ -50,7 +50,7 @@ export default function Hero() {
                     </div>
                   </MotionDivLeftToRight>
                   <MotionDivLeftToRight>
-                    <div className="flex text-center justify-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-left desktop1:justify-start ">
+                    <div className="flex justify-center text-center phone1:w-full font-secondFont text-paragraph4 phone3:text-paragraph5 desktop1:text-left desktop1:justify-start ">
                       <p className="text-lighter mb-[32px] opacity-80">
                         {content.texts.hero.subtitle}
                       </p>
@@ -82,7 +82,7 @@ export default function Hero() {
                   </div>
                   <MotionDivLeftToRight>
                     <div className="pt-8">
-                      <p className="text-white phone1:flex text-center justify-center text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
+                      <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
                         Emitimos passagens para as principais companhias aéreas:
                       </p>
                       <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
@@ -167,7 +167,7 @@ export default function Hero() {
           </div>
         </SectionWrapper>
       </SectionArea>
-      <div className="custom-shape-divider-bottom-1725634512 relative z-0">
+      <div className="relative z-0 custom-shape-divider-bottom-1725634512">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"

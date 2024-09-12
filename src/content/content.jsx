@@ -120,16 +120,26 @@ const content = {
     about: {
       imagem: {
         img: aboutImg1,
-        alt: "imagem A Definir",
+        alt: "imagem De Pessoas Em Viagem",
       },
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
+      miniTag: "NOSSA TRAJETÓRIA",
+      title: "Quem somos?",
+      subtitle:
+        "A Melhores Passagens nasceu da necessidade de ajudar pessoas que desejam viajar, mas que muitas vezes se deparam com preços inacessíveis para o brasileiro comum.",
       paragraph: (
         <div>
-          A Definir
+          Buscamos democratizar o acesso a viagens aéreas, oferecendo passagens
+          com preços mais baixos do que os praticados no mercado. Sempre
+          proporcionando oportunidades para aqueles que, por questões
+          financeiras, não conseguem realizar o sonho de viajar. Sabemos que,
+          para o brasileiro, qualquer desconto faz uma grande diferença.
           <br />
-          <br />A Definir
+          <br />
+          Por isso, trabalhamos para garantir tarifas mais acessíveis e
+          possibilitar que mais pessoas possam voar. Todas as passagens que
+          oferecemos são emitidas de forma confiável, diretamente com as
+          companhias aéreas, por meio de consolidadoras, assegurando segurança e
+          tranquilidade em suas compras.
         </div>
       ),
       aboutSocial: {
@@ -137,14 +147,18 @@ const content = {
           img: aboutSocialImg,
           alt: "Foto Profissional",
         },
-        miniTag: "A Definir",
-        title: "A Definir",
-        subtitle: "",
+        miniTag: "FIQUE POR DENTRO",
+        title: "Conheça seu novo destino",
+        subtitle:
+          "✈️ Quer saber das últimas tendências e dicas de viagens? Siga a Melhores Passagens no Instagram!",
         paragraph: (
           <p>
-            A Definir
+            Em nossas redes, você encontra atualizações sobre promoções de
+            passagens, destinos imperdíveis, dicas de viagem e muito mais!
             <br />
-            <br />A Definir
+            <br />
+            Esteja sempre preparado para sua próxima aventura com nossas
+            orientações especializadas.
           </p>
         ),
       },

@@ -22,8 +22,8 @@ export default function SectionHeader({
     titleColor = "text-secondary";
     subtitleColor = "text-darker opacity-70";
   } else {
-    miniTitleBgColor = "bg-secondary bg-opacity-60";
-    miniTitleTextColor = "text-lighter";
+    miniTitleBgColor = "bg-primary bg-opacity-100";
+    miniTitleTextColor = "text-secondary";
     titleColor = "text-lighter";
     subtitleColor = "text-lighter text-opacity-80";
   }
