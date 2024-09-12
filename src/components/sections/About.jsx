@@ -58,7 +58,7 @@ export default function About() {
   };
 
   return (
-    <SectionArea id="about" className="bg-bgSectionDark pt-[105px] desktop1:pt-[150px]" paddingbot={false}>
+    <SectionArea id="about" className="degrade-to-bot-black-secondary pt-[105px] desktop1:pt-[150px]" paddingbot={false}>
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         <MotionDivDownToUp className=" w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
           <div
