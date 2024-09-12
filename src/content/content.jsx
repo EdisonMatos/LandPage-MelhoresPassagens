@@ -574,10 +574,11 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "A Definir",
-      title: "A Definir",
-      subtitle: "A Definir",
-      ctaButtonText: "A Definir",
+      miniTag: "NÃO PERCA TEMPO",
+      title: "Chegou a sua vez de viajar pagando menos",
+      subtitle:
+        "Converse com nossa equipe. Estamos prontos para ajudar você a planejar a viagem dos seus sonhos.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     testimonials: {
       miniTag: "FEEDBACKS REAIS",
