@@ -44,11 +44,11 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca A Definir",
+        alt: "Logomarca Melhores Passagens",
       },
       solidLogo: {
         img: logo,
-        alt: "Logomarca A Definir",
+        alt: "Logomarca Melhores Passagens",
       },
       menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
       ctaButtonText: "Contato",
@@ -59,8 +59,7 @@ const content = {
       title: (
         <h1 className="mb-[16px]">Um novo conceito de agência de viagens</h1>
       ),
-      subtitle:
-        "Passagens muito mais baratas que nos sites das companhias aéreas.",
+      subtitle: "Conhecendo o mundo sem pesar no bolso.",
       ctaButtonText: "Faça uma cotação",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -138,8 +137,8 @@ const content = {
           Por isso, trabalhamos para garantir tarifas mais acessíveis e
           possibilitar que mais pessoas possam voar. Todas as passagens que
           oferecemos são emitidas de forma confiável, diretamente com as
-          companhias aéreas, por meio de consolidadoras, assegurando segurança e
-          tranquilidade em suas compras.
+          companhias aéreas, proporcionando segurança e tranquilidade em sua
+          compra.
         </div>
       ),
       aboutSocial: {
