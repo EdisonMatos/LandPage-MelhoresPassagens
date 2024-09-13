@@ -44,11 +44,11 @@ const content = {
     navbar: {
       logo: {
         img: logo,
-        alt: "Logomarca A Definir",
+        alt: "Logomarca Melhores Passagens",
       },
       solidLogo: {
         img: logo,
-        alt: "Logomarca A Definir",
+        alt: "Logomarca Melhores Passagens",
       },
       menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
       ctaButtonText: "Contato",
