@@ -83,7 +83,8 @@ export default function Hero() {
                   <MotionDivLeftToRight>
                     <div className="pt-8">
                       <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
-                        Emitimos passagens para as principais companhias aéreas:
+                        Emitimos passagens para as principais companhias aéreas
+                        dentro e fora do Brasil:
                       </p>
                       <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
                         <img
