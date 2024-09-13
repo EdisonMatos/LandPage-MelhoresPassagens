@@ -152,3 +152,7 @@
 .degrade-to-bot-black-secondary {
   background: linear-gradient(to bottom, #06003c, #130968);
 }
+
+.degrade-to-bot-black-secondary2 {
+  background: linear-gradient(to bottom, #130968, #06003c);
+}
