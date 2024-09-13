@@ -30,7 +30,7 @@ export default function AboutInstagram() {
           ></img> */}
           <img
             src={imgPhone}
-            alt="Imagem de uma praia de Arraial"
+            alt="Imagem do perfil do instagram da Agência Melhores Passagens"
             className=""
           />
         </MotionDivDownToUp>
