@@ -7,7 +7,7 @@ import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.png";
+import aboutImg1 from "../assets/imgs/about/imgAbout.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
