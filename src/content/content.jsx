@@ -1,7 +1,7 @@
 import links from "./links";
 
-import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import logo from "../assets/imgs/logo/logo.webp";
+import solidLogo from "../assets/imgs/logo/solidLogo.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
@@ -47,7 +47,7 @@ const content = {
         alt: "Logomarca Melhores Passagens",
       },
       solidLogo: {
-        img: logo,
+        img: solidLogo,
         alt: "Logomarca Melhores Passagens",
       },
       menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
