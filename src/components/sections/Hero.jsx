@@ -6,7 +6,7 @@ import bgHeroImg from "../../assets/imgs/hero/bgHero.jpg";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/aviao.png";
+import imgLaw from "../../assets/imgs/hero/aviao.webp";
 import SectionArea from "../sectionElements/SectionArea";
 import imgPoints from "../../assets/imgs/about/points.png";
 import imgHeroTrustedBy1 from "../../assets/imgs/hero/latam.png";

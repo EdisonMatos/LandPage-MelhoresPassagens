@@ -1,13 +1,13 @@
 import links from "./links";
 
-import logo from "../assets/imgs/logo/logo.png";
-import solidLogo from "../assets/imgs/logo/solidLogo.png";
+import logo from "../assets/imgs/logo/logo.webp";
+import solidLogo from "../assets/imgs/logo/solidLogo.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
-import imgFeatures from "../assets/imgs/features/imgServices.jpg";
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/imgAbout.png";
+import aboutImg1 from "../assets/imgs/about/imgAbout.webp";
 import aboutSocialImg from "../assets/imgs/about/aboutSocialImg.jpg";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
@@ -30,14 +30,14 @@ import teamMemberImg2 from "../assets/imgs/team/team2.webp";
 import teamMemberImg3 from "../assets/imgs/team/team3.webp";
 import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from "../assets/imgs/testimonials/imgTestimonial1.png";
-import imgTestimonial2 from "../assets/imgs/testimonials/imgTestimonial2.png";
-import imgTestimonial3 from "../assets/imgs/testimonials/imgTestimonial3.png";
-import imgTestimonial4 from "../assets/imgs/testimonials/imgTestimonial4.png";
-import imgTestimonial5 from "../assets/imgs/testimonials/imgTestimonial5.png";
-import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.png";
-import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.png";
-import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.png";
+import imgTestimonial1 from "../assets/imgs/testimonials/imgTestimonial1.webp";
+import imgTestimonial2 from "../assets/imgs/testimonials/imgTestimonial2.webp";
+import imgTestimonial3 from "../assets/imgs/testimonials/imgTestimonial3.webp";
+import imgTestimonial4 from "../assets/imgs/testimonials/imgTestimonial4.webp";
+import imgTestimonial5 from "../assets/imgs/testimonials/imgTestimonial5.webp";
+import imgTestimonial6 from "../assets/imgs/testimonials/imgTestimonial6.webp";
+import imgTestimonial7 from "../assets/imgs/testimonials/imgTestimonial7.webp";
+import imgTestimonial8 from "../assets/imgs/testimonials/imgTestimonial8.webp";
 
 const content = {
   texts: {
@@ -47,7 +47,7 @@ const content = {
         alt: "Logomarca Melhores Passagens",
       },
       solidLogo: {
-        img: logo,
+        img: solidLogo,
         alt: "Logomarca Melhores Passagens",
       },
       menuItems: ["Início", "Serviços", "Quem Somos", "Feedbacks"],
