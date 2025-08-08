@@ -73,7 +73,7 @@ export default function Hero() {
                         </p>
                         <Button
                           aria-label={content.texts.hero.ctaButtonAriaLabel}
-                          label={content.texts.hero.ctaButtonText}
+                          label="Entre em contato conosco"
                           buttonLink={whatsappContactLinkSecondary}
                           gap="0px"
                         />
