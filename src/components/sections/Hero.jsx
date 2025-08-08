@@ -156,11 +156,6 @@ export default function Hero() {
                       alt="Foto de passaports"
                       className="w-full rounded-3xl relative z-20 desktop3:top-[15%]"
                     ></img>
-                    {/* <img
-                  src={imgPoints}
-                  alt="Imagem de efeito pontilhado"
-                  className="absolute opacity-75 phone1:right-[-10px] phone1:top-[20px] desktop1:right-[-40px] desktop1:top-[40px]"
-                ></img> */}
                   </MotionDivRightToLeft>
                 </div>
               </div>
