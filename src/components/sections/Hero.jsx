@@ -77,6 +77,7 @@ export default function Hero() {
                             label="Entre em contato conosco"
                             buttonLink={whatsappContactLinkSecondary}
                             gap="0px"
+                            size="small"
                           />
                         </div>
                       </div>
