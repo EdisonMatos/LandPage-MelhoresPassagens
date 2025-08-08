@@ -67,17 +67,18 @@ export default function Hero() {
                           label="Compre sua passagem aqui"
                           buttonLink={whatsappContactLink}
                           gap="0px"
-                          
                         />
-                        <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
-                          Mas se preferir um atendimento personalizado
-                        </p>
-                        <Button
-                          aria-label={content.texts.hero.ctaButtonAriaLabel}
-                          label="Entre em contato conosco"
-                          buttonLink={whatsappContactLinkSecondary}
-                          gap="0px"
-                        />
+                        <div className="flex flex-col gap-4 items-center justify-center desktop1:items-start w-full desktop1:justify-start">
+                          <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
+                            Mas se preferir um atendimento personalizado
+                          </p>
+                          <Button
+                            aria-label={content.texts.hero.ctaButtonAriaLabel}
+                            label="Entre em contato conosco"
+                            buttonLink={whatsappContactLinkSecondary}
+                            gap="0px"
+                          />
+                        </div>
                       </div>
                     </MotionDivLeftToRight>
                   </div>
