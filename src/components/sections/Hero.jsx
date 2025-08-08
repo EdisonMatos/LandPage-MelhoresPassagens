@@ -111,38 +111,6 @@ export default function Hero() {
                       </div>
                     </div>
                   </MotionDivLeftToRight>
-                  {/* <div className="">
-                <MotionDivLeftToRight>
-                  <p className="mb-[20px]">Baixe nosso app:</p>
-                  <div className="">
-                    {" "}
-                    <div className="flex items-start gap-[20px]">
-                      <a
-                        href="#"
-                        target="_blank"
-                        className="transition hover:scale-110"
-                      >
-                        <img
-                          src={imgAppStore}
-                          alt="Botão para a App Store"
-                          className=""
-                        />
-                      </a>
-                      <a
-                        href="#"
-                        target="_blank"
-                        className="transition hover:scale-110"
-                      >
-                        <img
-                          src={imgGooglePlay}
-                          alt="Botão para a Google Play"
-                          className=""
-                        />
-                      </a>
-                    </div>
-                  </div>
-                </MotionDivLeftToRight>
-              </div> */}
                 </div>
                 <div className="hidden desktop1:flex desktop3:w-[1200px] desktop3:relative desktop3:left-[5%]">
                   <MotionDivRightToLeft className="relative flex justify-end ">
