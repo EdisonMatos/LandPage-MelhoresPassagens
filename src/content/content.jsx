@@ -571,13 +571,25 @@ const content = {
         },
       },
     },
-    cta: {
+    ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: "NÃO PERCA TEMPO",
-      title: "Chegou a sua vez de viajar pagando menos",
-      subtitle:
-        "Converse com nossa equipe. Estamos prontos para ajudar você a planejar a viagem dos seus sonhos.",
-      ctaButtonText: "Entre em contato pelo WhatsApp",
+      // miniTag: "FALE CONOSCO",
+      title: (
+        <h1 className="text-primary">
+          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
+          conosco para podermos lhe ajudar,{" "}
+          <span className="text-bgSectionDark">estamos te esperando.</span>
+        </h1>
+      ),
+      subtitleDireita: (
+        <p className="gap-3 flex font-mainFont opacity-60 mt-1">
+          <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
+        </p>
+      ),
+      titleDireita: (
+        <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
+      ),
+      ctaButtonText: "Falar agora",
     },
     testimonials: {
       miniTag: "FEEDBACKS REAIS",

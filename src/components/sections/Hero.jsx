@@ -21,7 +21,8 @@ import SectionWrapper from "../sectionElements/SectionWrapper";
 
 //latam1 gol2 azul3 portugal4
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
+const whatsappContactLink =
+  "https://www.comprarviagem.com.br/melhorespassagens/home";
 
 export default function Hero() {
   return (
