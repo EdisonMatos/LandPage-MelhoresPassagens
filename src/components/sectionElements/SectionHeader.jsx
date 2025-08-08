@@ -15,6 +15,7 @@ export default function SectionHeader({
   subtitleOrientation,
   miniTitleOrientation,
   marginBottomOption,
+  showMiniTitleBg = true, // nova prop, padrão true
 }) {
   if (color === "dark") {
     miniTitleBgColor = "bg-secondary bg-opacity-5";
@@ -39,11 +40,14 @@ export default function SectionHeader({
     marginBottomOption = "mb-[26px] tablet1:mb-[40px] desktop1:mb-[72px]";
   }
 
+  // Define a classe de background do miniTitle de acordo com a prop
+  const miniTitleBgClass = showMiniTitleBg ? miniTitleBgColor : "";
+
   return (
     <div className={` ${usage} ${className}`}>
       <div className={`${miniTitleSpace}`}>
         <div
-          className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgColor}`}
+          className={`py-[4px] font-semibold px-[12px] text-paragraph2 rounded-2xl inline-block mb-[16px] ${miniTitleOrientation} ${miniTitleBgClass}`}
         >
           <p className={`${miniTitleTextColor} uppercase`}>{miniTitle}</p>
         </div>
