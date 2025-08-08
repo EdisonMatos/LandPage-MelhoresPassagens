@@ -78,6 +78,7 @@ export default function Hero() {
                             buttonLink={whatsappContactLinkSecondary}
                             gap="0px"
                             size="small"
+                            className="bg-white"
                           />
                         </div>
                       </div>
