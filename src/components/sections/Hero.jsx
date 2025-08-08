@@ -61,12 +61,13 @@ export default function Hero() {
                   </MotionDivLeftToRight>
                   <div className="w-full phone2:w-full tablet2:w-auto">
                     <MotionDivLeftToRight>
-                      <div className="flex flex-col gap-8 justify-center w-full desktop1:justify-start">
+                      <div className="flex flex-col gap-8 items-center justify-center desktop1:items-start w-full desktop1:justify-start">
                         <Button
                           aria-label={content.texts.hero.ctaButtonAriaLabel}
                           label="Compre sua passagem aqui"
                           buttonLink={whatsappContactLink}
                           gap="0px"
+                          
                         />
                         <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
                           Mas se preferir um atendimento personalizado
