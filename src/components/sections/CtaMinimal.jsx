@@ -7,8 +7,8 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import links from "../../content/links";
 
-const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
-
+const whatsappContactLink =
+  "https://www.comprarviagem.com.br/melhorespassagens/home";
 export default function CtaSecondary({ colorMode = "default" }) {
   const navigate = useNavigate();
 
@@ -31,23 +31,23 @@ export default function CtaSecondary({ colorMode = "default" }) {
       <SectionArea className={`${bgClass}`}>
         <SectionWrapper>
           <div className=" flex flex-col desktop1:flex-row justify-evenly">
-            <div className=" desktop1:w-[45%] ">
+            <div className=" items-center desktop1:w-[45%] ">
               <SectionHeader
                 colorMode="dark"
-                className={`text-center desktop1:hidden ${textClass}`}
+                className={`text-center desktop1:hidden w-full ${textClass}`}
+                miniTitle={content.texts.ctaSecondary.miniTag}
                 sectionHeaderTitle={content.texts.ctaSecondary.title}
                 titleColorSet={textClass}
                 subtitleColorSet={textClass}
-                showMiniTitleBg={false}
                 type=""
               />
               <SectionHeader
                 colorMode="dark"
                 className={`text-center hidden desktop1:flex ${textClass}`}
+                miniTitle={content.texts.ctaSecondary.miniTag}
                 sectionHeaderTitle={content.texts.ctaSecondary.title}
                 titleColorSet={textClass}
                 subtitleColorSet={textClass}
-                showMiniTitleBg={false}
                 type="article"
               />
             </div>
@@ -58,7 +58,7 @@ export default function CtaSecondary({ colorMode = "default" }) {
               {content.texts.ctaSecondary.titleDireita}
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
-                label={content.texts.ctaSecondary.ctaButtonText}
+                label="Faça sua cotação agora"
                 animation
                 buttonLink={whatsappContactLink}
                 icon={<FaWhatsapp size={24} color="2A050F" />}

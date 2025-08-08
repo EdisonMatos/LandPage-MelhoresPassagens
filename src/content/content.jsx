@@ -573,12 +573,12 @@ const content = {
     },
     ctaSecondary: {
       backgroundImg: ctaWhatsappImgBg,
-      // miniTag: "FALE CONOSCO",
+      miniTag: "OFERTAS IMPERDÍVEIS",
       title: (
-        <h1 className="text-primary">
-          <span className="text-bgSectionDark">Dúvidas?</span> Entre em contato
-          conosco para podermos lhe ajudar,{" "}
-          <span className="text-bgSectionDark">estamos te esperando.</span>
+        <h1 className="text-primary ">
+          <span className="text-bgSectionDark">Encontre as</span> melhores
+          passagens aéreas{" "}
+          <span className="text-bgSectionDark">em segundos</span>
         </h1>
       ),
       subtitleDireita: (
