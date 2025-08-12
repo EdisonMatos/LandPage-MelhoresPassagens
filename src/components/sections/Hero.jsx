@@ -70,7 +70,7 @@ export default function Hero() {
                         />
                         <div className="flex flex-col gap-4 items-center justify-center desktop1:items-start w-full desktop1:justify-start">
                           <a
-                            href={whatsappContactLink}
+                            href={whatsappContactLinkSecondary}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-white text-paragraph3 phone1:flex text-center desktop1:text-paragraph4 desktop1:text-left desktop1:justify-start

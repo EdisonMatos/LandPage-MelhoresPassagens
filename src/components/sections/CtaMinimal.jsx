@@ -7,8 +7,7 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import links from "../../content/links";
 
-const whatsappContactLink =
-  "https://www.comprarviagem.com.br/melhorespassagens/home";
+const whatsappContactLink = `https://wa.me/` + `${links.ctaWhatsapp}`;
 export default function CtaSecondary({ colorMode = "default" }) {
   const navigate = useNavigate();
 
