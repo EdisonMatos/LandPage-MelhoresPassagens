@@ -64,22 +64,21 @@ export default function Hero() {
                       <div className="flex flex-col gap-8 items-center justify-center desktop1:items-start w-full desktop1:justify-start">
                         <Button
                           aria-label={content.texts.hero.ctaButtonAriaLabel}
-                          label="Compre sua passagem aqui"
+                          label="Garanta sua viagem"
                           buttonLink={whatsappContactLink}
                           gap="0px"
                         />
                         <div className="flex flex-col gap-4 items-center justify-center desktop1:items-start w-full desktop1:justify-start">
-                          <p className="justify-center text-center text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph4 desktop1:text-left">
-                            Mas se preferir um atendimento personalizado
-                          </p>
-                          <Button
-                            aria-label={content.texts.hero.ctaButtonAriaLabel}
-                            label="Entre em contato conosco"
-                            buttonLink={whatsappContactLinkSecondary}
-                            gap="0px"
-                            size="small"
-                            className="bg-white"
-                          />
+                          <a
+                            href={whatsappContactLinkSecondary}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white text-paragraph3 phone1:flex text-center desktop1:text-paragraph4 desktop1:text-left desktop1:justify-start
+               hover:underline hover:underline-offset-2 transition-all duration-200"
+                          >
+                            Mas se preferir um atendimento personalizado, clique
+                            aqui para ser encaminhado para nossa equipe
+                          </a>
                         </div>
                       </div>
                     </MotionDivLeftToRight>
