@@ -89,29 +89,84 @@ export default function Hero() {
                         Emitimos passagens para as principais companhias aéreas
                         dentro e fora do Brasil:
                       </p>
-                      <div className="flex w-full pt-4 gap-4 items-center justify-center phone3:pt-6 desktop1: desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
+                      <div className="flex w-full flex-wrap pt-4 gap-4 tablet1:gap-6 items-center justify-center phone3:pt-6 desktop1:flex-nowrap desktop1:justify-start desktop1:top-[30%] desktop1:pt-4 desktop1:gap-4 ">
                         <img
-                          className="size-[20%] tablet2:size-[15%] desktop1:size-[20%] desktop3:size-[25%]"
+                          className=" size-[35%] tablet1:size-[25%] tablet2:size-[25%] desktop1:size-[24%] desktop3:size-[25%]"
                           src={imgHero1}
                           alt="Logomarca da Latam"
                         />
                         <img
-                          className="size-[15%] tablet1:size-[10%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[15%]"
+                          className=" size-[27%] tablet1:size-[15%] tablet2:size-[15%] desktop1:size-[15%] desktop3:size-[10%]"
                           src={imgHero2}
                           alt="Logomarca da Gol"
                         />
                         <img
-                          className="size-[20%] tablet1:size-[15%] tablet2:size-[13%] desktop1:size-[15%] desktop3:size-[25%]"
+                          className="size-[30%] tablet1:size-[20%] tablet2:size-[20%] desktop1:size-[20%] desktop3:size-[25%]"
                           src={imgHero3}
                           alt="Logomarca da Azul"
                         />
-
                         <img
-                          className="size-[20%] tablet2:size-[18%] desktop1:size-[26%] desktop3:size-[25%]"
+                          className="size-[35%] tablet1:size-[25%] tablet2:size-[20%] desktop1:size-[30%] desktop3:size-[25%]"
                           src={imgHero4}
                           alt="Logomarca da AirPortugal"
                         />
                       </div>
+                    </div>
+                  </MotionDivLeftToRight>
+
+                  <MotionDivLeftToRight>
+                    <p className="justify-center pt-6 text-center my-4 text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph3 desktop1:text-left">
+                      Agência afiliada aos principais programas de viagens no
+                      mundo:{" "}
+                    </p>
+                    <div className="flex flex-wrap justify-center desktop1:justify-start items-center pt-2 tablet1:pt-0 desktop1:flex-row gap-7">
+                      <img
+                        className="size-[15%] tablet1:size-[7%] tablet2:size-[8%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img1.img.trustedByImg1
+                        }
+                        alt="Logomarca Cvc"
+                      />
+
+                      <img
+                        className="size-[15%] tablet1:size-[10%] tablet2:size-[10%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img2.img.trustedByImg2
+                        }
+                        alt="Logomarca Expedia"
+                      />
+
+                      <img
+                        className="size-[15%] tablet1:size-[8%] tablet2:size-[10%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img3.img.trustedByImg3
+                        }
+                        alt="Logomarca Get Your Guide"
+                      />
+
+                      <img
+                        className="size-[15%] tablet1:size-[10%] tablet2:size-[12%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img4.img.trustedByImg4
+                        }
+                        alt="Logomarca Trip.com"
+                      />
+
+                      <img
+                        className="size-[15%] tablet1:size-[10%] tablet2:size-[12%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img5.img.trustedByImg5
+                        }
+                        alt="Logomarca Civitatis"
+                      />
+
+                      <img
+                        className="size-[15%] tablet2:size-[10%] desktop1:size-[10%] desktop3:size-[10%]"
+                        src={
+                          content.texts.trustedBy.images.img6.img.trustedByImg6
+                        }
+                        alt="Logomarca Agoda"
+                      />
                     </div>
                   </MotionDivLeftToRight>
                 </div>
@@ -125,7 +180,7 @@ export default function Hero() {
                     <img
                       src={imgLaw}
                       alt="Foto de passaports"
-                      className="w-full rounded-3xl relative z-20 desktop3:top-[15%]"
+                      className="w-full rounded-3xl relative z-20 desktop3:top-[10%]"
                     ></img>
                   </MotionDivRightToLeft>
                 </div>
@@ -142,12 +197,12 @@ export default function Hero() {
           preserveAspectRatio="none"
         >
           <path
-            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,108,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.10-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
             opacity=".25"
             className="shape-fill"
           ></path>
           <path
-            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            d="M0,0V10.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.10-10.10,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
             opacity=".5"
             className="shape-fill"
           ></path>

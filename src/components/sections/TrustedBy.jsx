@@ -24,6 +24,18 @@ const images = [
     src: content.texts.trustedBy.images.img3.img.trustedByImg3,
     alt: content.texts.trustedBy.images.img3.alt,
   },
+  {
+    src: content.texts.trustedBy.images.img4.img.trustedByImg4,
+    alt: content.texts.trustedBy.images.img4.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img5.img.trustedByImg5,
+    alt: content.texts.trustedBy.images.img5.alt,
+  },
+  {
+    src: content.texts.trustedBy.images.img6.img.trustedByImg6,
+    alt: content.texts.trustedBy.images.img6.alt,
+  },
 ];
 
 export default function TrustedBy() {
@@ -43,37 +55,14 @@ export default function TrustedBy() {
 
   return (
     <SectionArea className="">
-      {/* <SectionHeader
-        className="text-left"
-        sectionHeaderTitle={content.texts.trustedBy.title}
-        sectionHeaderSubtitle={content.texts.trustedBy.subtitle}
-      /> */}
       <SectionWrapper>
         <MotionDivDownToUp className="w-full">
           <LogoDisplay images={images} />
         </MotionDivDownToUp>
-        <MotionDivDownToUp className="">
-          {/* <Paragraphs className="text-center">
-            Para ver todas seguradoras que trabalhamos,{" "}
-            <span
-              className="transition cursor-pointer text-tertiary hover:underline"
-              onClick={onClick}
-            >
-              clique aqui
-            </span>
-          </Paragraphs> */}
+        <MotionDivDownToUp className="mt-8">
+          <p className="text-center"> Agência afiliada aos principais programas de viagens no mundo:</p>{" "}
         </MotionDivDownToUp>
       </SectionWrapper>
-      {/* <Dialog
-        className="font-secondFont"
-        header={modalTitle}
-        visible={visible}
-        onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{ "960px": "75vw", "641px": "90vw" }}
-      >
-        <p className="m-0 ">{modalContent}</p>
-      </Dialog> */}
     </SectionArea>
   );
 }

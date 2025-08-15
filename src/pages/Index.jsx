@@ -12,6 +12,7 @@ import AboutInstagram from "../components/sections/AboutInstagram";
 // import HowItWorksImage from "../components/sections/HowItWorksImage";
 import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
+import TrustedBy from "../components/sections/TrustedBy";
 
 export default function Index() {
   return (
@@ -25,6 +26,7 @@ export default function Index() {
       <AboutInstagram />
       <Depositions />
       <CtaMinimal />
+      {/* <TrustedBy /> */}
       {/* <Faq /> */}
       <FooterSocial />
       <FloatingWhatsappButton />
