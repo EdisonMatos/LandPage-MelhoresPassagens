@@ -14,9 +14,12 @@ import imgSteps from "../assets/imgs/steps/imgSteps.jpg";
 
 import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
-import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
-import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
-import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.png";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.png";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.png";
+import trustedByImg4 from "../assets/imgs/trustedBy/item4.png";
+import trustedByImg5 from "../assets/imgs/trustedBy/item5.png";
+import trustedByImg6 from "../assets/imgs/trustedBy/item6.png";
 
 import featuresImg1 from "../assets/imgs/features/featuresImg1.jpg";
 import featuresImg2 from "../assets/imgs/features/featuresImg2.jpg";
@@ -95,15 +98,27 @@ const content = {
       images: {
         img1: {
           img: { trustedByImg1 },
-          alt: "marca Rennova",
+          alt: "Logo de marca",
         },
         img2: {
           img: { trustedByImg2 },
-          alt: "marca Colgate",
+          alt: "Logo de marca",
         },
         img3: {
           img: { trustedByImg3 },
-          alt: "marca dental Cremer",
+          alt: "Logo de marca",
+        },
+        img4: {
+          img: { trustedByImg4 },
+          alt: "Logo de marca",
+        },
+        img5: {
+          img: { trustedByImg5 },
+          alt: "Logo de marca",
+        },
+        img6: {
+          img: { trustedByImg6 },
+          alt: "Logo de marca",
         },
       },
     },

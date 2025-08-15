@@ -1,5 +1,3 @@
-import React from "react";
-
 const LogoDisplayMore = ({ images }) => {
   return (
     <div className="flex flex-wrap justify-between tablet1:justify-evenly w-full gap-y-[40px] tablet1:gap-y-[80px] p-[20px] phone2:p-[20px] desktop1:py-0 desktop1:px-[20px] desktop3:px-[40px]">
