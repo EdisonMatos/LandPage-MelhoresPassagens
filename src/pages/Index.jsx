@@ -13,12 +13,14 @@ import AboutInstagram from "../components/sections/AboutInstagram";
 import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
 import TrustedBy from "../components/sections/TrustedBy";
+import TrustedByNew from "../components/sections/TrustedByNew";
 
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
       <Hero />
+      <TrustedByNew />
       <FeaturesWithIcons />
       {/* <HowItWorksImage /> */}
       {/* <Numbers /> */}

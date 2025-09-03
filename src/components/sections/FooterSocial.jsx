@@ -55,8 +55,8 @@ function FooterSocial() {
               <svg
                 aria-label="ícone do e-mail"
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="32"
+                height="32"
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="white"
@@ -68,9 +68,41 @@ function FooterSocial() {
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-              <p className="text-paragraph2">{infos.mail}</p>
+              <span>
+                <p className="text-paragraph1">
+                  {infos.mail} - corporativo ou parcerias
+                </p>
+              </span>
             </div>
           </MotionDivDownToUp>
+
+          <MotionDivDownToUp>
+            <div className="flex full gap-x-[12px] items-center opacity-90">
+              <svg
+                aria-label="ícone do e-mail"
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-mail"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              <span>
+                <p className="text-paragraph1">
+                  atendimento@agmelhorespassagens.com.br - atendimento ao
+                  público
+                </p>
+              </span>
+            </div>
+          </MotionDivDownToUp>
+
           <MotionDivDownToUp>
             <div className="flex full gap-x-[12px] items-center opacity-90">
               <svg
