@@ -114,7 +114,7 @@ export default function Hero() {
                     </div>
                   </MotionDivLeftToRight>
 
-                  <MotionDivLeftToRight>
+                  {/* <MotionDivLeftToRight>
                     <p className="justify-center pt-6 text-center my-4 text-white phone1:flex text-paragraph3 desktop1:justify-start desktop1:text-paragraph3 desktop1:text-left">
                       Agência afiliada aos principais programas de viagens no
                       mundo:{" "}
@@ -168,7 +168,7 @@ export default function Hero() {
                         alt="Logomarca Agoda"
                       />
                     </div>
-                  </MotionDivLeftToRight>
+                  </MotionDivLeftToRight> */}
                 </div>
                 <div className="hidden desktop1:flex desktop3:w-[1200px] desktop3:relative desktop3:left-[5%]">
                   <MotionDivRightToLeft className="relative flex justify-end ">
