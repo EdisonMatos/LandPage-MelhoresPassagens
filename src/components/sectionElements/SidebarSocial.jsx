@@ -50,12 +50,12 @@ export default function SidebarSocial() {
       <div
         className={`${
           visible ? "block" : "hidden"
-        } fixed inset-0 bg-black opacity-50 lg:hidden`}
+        } fixed inset-0 bg-black opacity-50 `}
         onClick={toggleSidebar}
       />
       <div className="flex justify-center card">
         <AlignJustify
-          className={`p-button-rounded p-button-outlined lg:hidden ${
+          className={`p-button-rounded p-button-outlined  ${
             scrolled ? "text-secondary" : "text-lighter"
           } w-[40px] h-[40px]`}
           onClick={() => setVisible(true)}
@@ -67,7 +67,7 @@ export default function SidebarSocial() {
           content={({ closeIconRef, hide }) => (
             <div
               id="app-sidebar-2"
-              className="absolute top-0 left-0 flex-shrink-0 h-screen select-none surface-section lg:hidden lg:static z-1 surface-border"
+              className="absolute top-0 left-0 flex-shrink-0 h-screen select-none surface-section  lg:static z-1 surface-border"
               style={{ width: "280px" }}
             >
               <div className="flex flex-col h-full">

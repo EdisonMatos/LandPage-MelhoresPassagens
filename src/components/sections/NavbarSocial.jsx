@@ -115,11 +115,7 @@ export default function NavbarSocial() {
             />
           </ScrollLink>
           <div className="flex items-center justify-between gap-[16px]">
-            <div
-              className={`hidden tablet1:flex desktop1:hidden ${
-                scrolling ? "" : ""
-              }`}
-            >
+            <div className={`hidden  ${scrolling ? "" : ""}`}>
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
@@ -140,15 +136,11 @@ export default function NavbarSocial() {
                 }
               />
             </div>
-            <div
-              className={`flex items-center desktop1:hidden ${
-                scrolling ? "" : ""
-              } `}
-            >
+            <div className={`flex items-center ${scrolling ? "" : ""} `}>
               <SidebarSocial />
             </div>
           </div>
-          {showListGroup ? <ListGroupSocial /> : null}
+          {/* {showListGroup ? <ListGroupSocial /> : null} */}
         </Navbar>
       </div>
     </div>

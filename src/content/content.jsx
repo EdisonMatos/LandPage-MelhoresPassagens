@@ -58,7 +58,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "PASSAGENS AÉREAS BARATAS",
+      miniTag: "VIAGENS COM MENORES CUSTOS",
       title: (
         <h1 className="mb-[16px]">Um novo conceito de agência de viagens</h1>
       ),
@@ -591,9 +591,9 @@ const content = {
       miniTag: "OFERTAS IMPERDÍVEIS",
       title: (
         <h1 className="text-primary ">
-          <span className="text-bgSectionDark">Encontre as</span> melhores
-          passagens aéreas{" "}
-          <span className="text-bgSectionDark">em segundos</span>
+          <span className="text-bgSectionDark">Encontre os </span> melhores
+          pacotes de viagens 
+          <span className="text-bgSectionDark"> em segundos</span>
         </h1>
       ),
       subtitleDireita: (
